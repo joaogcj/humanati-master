@@ -1,8 +1,13 @@
-﻿*.zip
 *.rar
 *.7z
 *.mp4
 *.mov
 *.psd
 *.ai
-marketing/campaigns/
+node_modules/
+storybook-static/
+.DS_Store
+Thumbs.db
+
+# Arquivo consolidado acima do limite de 100 MB do GitHub.
+archives/supplemental-sources/Humanati_Todos_Artefatos_Disponiveis.zip

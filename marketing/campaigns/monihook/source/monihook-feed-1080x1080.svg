@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+<defs><linearGradient id="shade" x1="0" x2="1"><stop offset="0" stop-color="#03070F" stop-opacity=".96"/><stop offset=".72" stop-color="#03070F" stop-opacity=".08"/></linearGradient></defs>
+<image href="../../shared/assets/humanati-data-flow-hero-v1.png" width="1080" height="1080" preserveAspectRatio="xMidYMid slice"/>
+<rect width="1080" height="1080" fill="url(#shade)"/>
+<image href="../../../../branding/products/monihook/svg/monihook_horizontal_negative.svg" x="76" y="59" width="497" height="173" preserveAspectRatio="xMinYMid meet"/>
+<text x="76" y="335" fill="#00E5FF" font-family="Inter,Arial,sans-serif" font-size="19" font-weight="700" letter-spacing="2">COCKPIT INTELIGENTE</text>
+<text x="76" y="394" fill="#FFFFFF" font-family="Sora,Arial,sans-serif" font-size="66" font-weight="700"><tspan x="76" dy="0">Do sinal à ação em tempo</tspan><tspan x="76" dy="69">real.</tspan></text>
+<text x="76" y="559" fill="#B9C7DC" font-family="Inter,Arial,sans-serif" font-size="22"><tspan x="76" dy="0">Centralize indicadores, antecipe alertas e entregue</tspan><tspan x="76" dy="43">insights para uma gestão mais ágil.</tspan></text>
+<rect x="76" y="694" width="335" height="81" rx="22" fill="#0066FF"/>
+<text x="103" y="745" fill="#FFFFFF" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="700">CONHEÇA O MONIHOOK</text>
+<text x="76" y="1037" fill="#94A3B8" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="700">humanati.com.br</text>
+</svg>

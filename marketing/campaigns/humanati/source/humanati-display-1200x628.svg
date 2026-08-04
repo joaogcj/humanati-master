@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 628">
+<defs><linearGradient id="shade" x1="0" x2="1"><stop offset="0" stop-color="#03070F" stop-opacity=".96"/><stop offset=".72" stop-color="#03070F" stop-opacity=".08"/></linearGradient></defs>
+<image href="../../shared/assets/humanati-data-flow-hero-v1.png" width="1200" height="628" preserveAspectRatio="xMidYMid slice"/>
+<rect width="1200" height="628" fill="url(#shade)"/>
+<image href="../../../../branding/svg/Horizontal/humanati_horizontal_negative_white.svg" x="84" y="35" width="552" height="100" preserveAspectRatio="xMinYMid meet"/>
+<text x="84" y="195" fill="#00D4FF" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="700" letter-spacing="2">INTELIGÊNCIA PARA GESTÃO</text>
+<text x="84" y="261" fill="#FFFFFF" font-family="Sora,Arial,sans-serif" font-size="73" font-weight="700"><tspan x="84" dy="0">Decisões melhores começam</tspan><tspan x="84" dy="76">com dados conectados.</tspan></text>
+<text x="84" y="429" fill="#B9C7DC" font-family="Inter,Arial,sans-serif" font-size="24"><tspan x="84" dy="0">Unifique pessoas, operações e estratégia em uma visão</tspan><tspan x="84" dy="48">confiável.</tspan></text>
+<rect x="84" y="528" width="372" height="47" rx="13" fill="#0066FF"/>
+<text x="114" y="558" fill="#FFFFFF" font-family="Inter,Arial,sans-serif" font-size="19" font-weight="700">SOLICITE UM DIAGNÓSTICO</text>
+<text x="84" y="603" fill="#94A3B8" font-family="Inter,Arial,sans-serif" font-size="19" font-weight="700">humanati.com.br</text>
+</svg>
