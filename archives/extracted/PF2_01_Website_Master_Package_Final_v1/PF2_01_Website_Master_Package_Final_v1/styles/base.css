@@ -1,0 +1,18 @@
+@import url('../design-tokens/tokens.css');
+body{font-family:Inter,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.5}
+.container{width:min(1180px,calc(100% - 32px));margin:auto}
+.section{padding:72px 0}.grid{display:grid;gap:24px}.grid-3{grid-template-columns:repeat(3,minmax(0,1fr))}
+.card{background:linear-gradient(180deg,var(--surface-alt),var(--surface));border:1px solid var(--border);border-radius:var(--radius-lg);padding:24px;box-shadow:var(--shadow-sm)}
+.btn{display:inline-flex;align-items:center;justify-content:center;padding:12px 20px;border-radius:var(--radius-md);border:1px solid transparent;cursor:pointer}
+.btn-primary{background:var(--primary);color:#fff}.btn-secondary{border-color:var(--border);color:var(--text);background:transparent}
+.site-header{position:sticky;top:0;z-index:20;background:rgba(10,15,28,.88);backdrop-filter:blur(16px);border-bottom:1px solid var(--border)}
+.nav{display:flex;align-items:center;justify-content:space-between;min-height:72px}.nav-links{display:flex;gap:20px;align-items:center}
+.logo{height:34px;width:auto}
+.hero{padding:104px 0 88px;background:radial-gradient(circle at 80% 20%,rgba(55,198,255,.18),transparent 35%),linear-gradient(180deg,#0A0F1C,#0D1524)}
+.hero h1{font-size:clamp(40px,7vw,76px);line-height:1.05;max-width:900px;margin:0 0 24px}.hero p{font-size:20px;color:var(--muted);max-width:760px}
+.kpis{grid-template-columns:repeat(4,minmax(0,1fr))}.kpi strong{font-size:34px;display:block}.muted{color:var(--muted)}
+.site-footer{border-top:1px solid var(--border);padding:40px 0;color:var(--muted)}
+form{display:grid;gap:16px}input,textarea,select{background:#0E1728;color:var(--text);border:1px solid var(--border);border-radius:var(--radius-md);padding:14px}
+table{width:100%;border-collapse:collapse}th,td{padding:14px;border-bottom:1px solid var(--border);text-align:left}
+@media(max-width:900px){.grid-3,.kpis{grid-template-columns:1fr 1fr}.nav-links{display:none}}
+@media(max-width:600px){.grid-3,.kpis{grid-template-columns:1fr}.hero{padding-top:72px}.section{padding:48px 0}}

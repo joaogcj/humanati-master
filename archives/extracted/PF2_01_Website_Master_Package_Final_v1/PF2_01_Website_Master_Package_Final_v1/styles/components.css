@@ -1,0 +1,5 @@
+.badge{display:inline-flex;padding:6px 10px;border-radius:999px;background:rgba(55,198,255,.12);color:var(--accent);border:1px solid rgba(55,198,255,.25)}
+.alert{padding:16px;border-radius:var(--radius-md);border:1px solid var(--border)}.alert-success{border-color:rgba(34,197,94,.45)}
+.sidebar{background:var(--surface);border-right:1px solid var(--border);min-height:100vh;padding:24px}
+.dashboard{display:grid;grid-template-columns:240px 1fr}.dashboard-main{padding:24px}
+.progress{height:10px;background:#0E1728;border-radius:999px;overflow:hidden}.progress>span{display:block;height:100%;background:linear-gradient(90deg,var(--primary),var(--accent))}

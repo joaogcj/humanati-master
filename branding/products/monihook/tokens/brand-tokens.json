@@ -1,0 +1,15 @@
+{
+  "brand": "MoniHook",
+  "status": "reconstructed-from-reference-board",
+  "colors": {
+    "primary": "#0066FF",
+    "secondary": "#00E5FF",
+    "accent": "#00B4D8",
+    "dark": "#070C16",
+    "white": "#FFFFFF"
+  },
+  "typography": {
+    "specified": "Inter",
+    "fallbackUsedForRasterGeneration": "Arial"
+  }
+}

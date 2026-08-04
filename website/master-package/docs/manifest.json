@@ -1,0 +1,133 @@
+{
+  "version": "1.0",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 207
+    },
+    {
+      "path": "README.md",
+      "bytes": 338
+    },
+    {
+      "path": "assets/brand/humanati-official.svg",
+      "bytes": 6795
+    },
+    {
+      "path": "components/cta.html",
+      "bytes": 231
+    },
+    {
+      "path": "components/feature-card.html",
+      "bytes": 158
+    },
+    {
+      "path": "components/footer.html",
+      "bytes": 179
+    },
+    {
+      "path": "components/header.html",
+      "bytes": 419
+    },
+    {
+      "path": "components/hero.html",
+      "bytes": 416
+    },
+    {
+      "path": "components/kpi-card.html",
+      "bytes": 98
+    },
+    {
+      "path": "design-tokens/tokens.css",
+      "bytes": 348
+    },
+    {
+      "path": "design-tokens/tokens.json",
+      "bytes": 748
+    },
+    {
+      "path": "pages/about.html",
+      "bytes": 1404
+    },
+    {
+      "path": "pages/careers.html",
+      "bytes": 1408
+    },
+    {
+      "path": "pages/cases.html",
+      "bytes": 1412
+    },
+    {
+      "path": "pages/contact.html",
+      "bytes": 1412
+    },
+    {
+      "path": "pages/dashboard.html",
+      "bytes": 1086
+    },
+    {
+      "path": "pages/demo.html",
+      "bytes": 1437
+    },
+    {
+      "path": "pages/faq.html",
+      "bytes": 1453
+    },
+    {
+      "path": "pages/index.html",
+      "bytes": 1642
+    },
+    {
+      "path": "pages/login.html",
+      "bytes": 1386
+    },
+    {
+      "path": "pages/monihook.html",
+      "bytes": 1595
+    },
+    {
+      "path": "pages/platform.html",
+      "bytes": 1609
+    },
+    {
+      "path": "pages/pricing.html",
+      "bytes": 1419
+    },
+    {
+      "path": "pages/privacy.html",
+      "bytes": 1332
+    },
+    {
+      "path": "pages/resources.html",
+      "bytes": 1388
+    },
+    {
+      "path": "pages/vane.html",
+      "bytes": 1601
+    },
+    {
+      "path": "pages/wic.html",
+      "bytes": 1431
+    },
+    {
+      "path": "scripts/dashboard.js",
+      "bytes": 135
+    },
+    {
+      "path": "scripts/main.js",
+      "bytes": 229
+    },
+    {
+      "path": "styles/base.css",
+      "bytes": 2076
+    },
+    {
+      "path": "styles/components.css",
+      "bytes": 657
+    },
+    {
+      "path": "styles/reset.css",
+      "bytes": 180
+    }
+  ]
+}

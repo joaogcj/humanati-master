@@ -1,0 +1,4 @@
+:root{font-family:Inter,system-ui,sans-serif;color:#f8fafc;background:#0a0f1c}
+.catalog{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;padding:24px}
+.catalog-card{min-height:120px;padding:20px;border:1px solid #243047;border-radius:16px;background:#111827}
+.catalog-card h3{margin:0 0 8px;color:#37c6ff}.catalog-card code{color:#cbd5e1}

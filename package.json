@@ -1,0 +1,19 @@
+{
+  "name": "@humanati/ecosystem",
+  "version": "0.1.0-recovered",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "build:gallery": "node scripts/build-artifact-gallery.mjs",
+    "serve": "node scripts/serve.mjs",
+    "validate": "node scripts/validate.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "devDependencies": {
+    "@storybook/html-vite": "^8.6.0",
+    "storybook": "^8.6.0"
+  }
+}

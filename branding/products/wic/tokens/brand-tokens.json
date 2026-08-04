@@ -1,0 +1,15 @@
+{
+  "brand": "WIC",
+  "status": "reconstructed-from-reference-board",
+  "colors": {
+    "primary": "#00C896",
+    "secondary": "#2DD4BF",
+    "accent": "#14B8A6",
+    "dark": "#070C16",
+    "white": "#FFFFFF"
+  },
+  "typography": {
+    "specified": "Inter",
+    "fallbackUsedForRasterGeneration": "Arial"
+  }
+}

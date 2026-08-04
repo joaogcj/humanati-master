@@ -1,0 +1,9 @@
+:root{
+  --bg:#0A0F1C;--surface:#111827;--surface-alt:#162033;
+  --primary:#0066FF;--accent:#37C6FF;--success:#22C55E;
+  --warning:#F59E0B;--danger:#EF4444;--text:#F8FAFC;
+  --muted:#94A3B8;--border:#243047;
+  --radius-sm:6px;--radius-md:12px;--radius-lg:20px;
+  --shadow-sm:0 4px 12px rgba(0,0,0,.18);
+  --shadow-lg:0 20px 60px rgba(0,0,0,.32);
+}

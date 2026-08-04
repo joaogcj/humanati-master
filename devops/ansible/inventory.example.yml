@@ -1,0 +1,7 @@
+all:
+  hosts:
+    humanati_web:
+      ansible_host: 192.0.2.10
+      ansible_user: deploy
+  vars:
+    humanati_image: humanati/ecosystem:latest

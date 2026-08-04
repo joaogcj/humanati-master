@@ -1,0 +1,31 @@
+---
+- name: Publicar Humanati em Docker Swarm
+  hosts: humanati_web
+  become: true
+  vars:
+    project_dir: /opt/humanati
+  tasks:
+    - name: Criar diretório do projeto
+      ansible.builtin.file:
+        path: "{{ project_dir }}"
+        state: directory
+        owner: root
+        group: root
+        mode: "0755"
+
+    - name: Copiar definição da stack
+      ansible.builtin.copy:
+        src: ../swarm/stack.yaml
+        dest: "{{ project_dir }}/stack.yaml"
+        owner: root
+        group: root
+        mode: "0644"
+
+    - name: Publicar stack
+      ansible.builtin.command:
+        cmd: docker stack deploy --with-registry-auth --prune -c stack.yaml humanati
+        chdir: "{{ project_dir }}"
+      environment:
+        HUMANATI_IMAGE: "{{ humanati_image }}"
+      register: deploy_result
+      changed_when: "'Updating service' in deploy_result.stdout or 'Creating service' in deploy_result.stdout"

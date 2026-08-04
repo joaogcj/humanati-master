@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 627">
+<defs><linearGradient id="shade" x1="0" x2="1"><stop offset="0" stop-color="#03070F" stop-opacity=".96"/><stop offset=".72" stop-color="#03070F" stop-opacity=".08"/></linearGradient></defs>
+<image href="../../shared/assets/humanati-data-flow-hero-v1.png" width="1200" height="627" preserveAspectRatio="xMidYMid slice"/>
+<rect width="1200" height="627" fill="url(#shade)"/>
+<image href="../../../../branding/products/vane/svg/vane_horizontal_negative.svg" x="84" y="34" width="552" height="100" preserveAspectRatio="xMinYMid meet"/>
+<text x="84" y="194" fill="#A855F7" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="700" letter-spacing="2">PLANEJAMENTO COM IA</text>
+<text x="84" y="260" fill="#FFFFFF" font-family="Sora,Arial,sans-serif" font-size="73" font-weight="700"><tspan x="84" dy="0">Planeje cenários. Decida com</tspan><tspan x="84" dy="76">confiança.</tspan></text>
+<text x="84" y="428" fill="#B9C7DC" font-family="Inter,Arial,sans-serif" font-size="24"><tspan x="84" dy="0">Transforme sinais em cenários claros e recomendações</tspan><tspan x="84" dy="48">acionáveis para a liderança.</tspan></text>
+<rect x="84" y="527" width="372" height="47" rx="13" fill="#7C3AED"/>
+<text x="114" y="556" fill="#FFFFFF" font-family="Inter,Arial,sans-serif" font-size="19" font-weight="700">CONHEÇA A VANE</text>
+<text x="84" y="602" fill="#94A3B8" font-family="Inter,Arial,sans-serif" font-size="19" font-weight="700">humanati.com.br</text>
+</svg>

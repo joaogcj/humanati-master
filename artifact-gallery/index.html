@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Catálogo navegável dos artefatos do ecossistema Humanati.">
+  <title>Biblioteca de Artefatos | Humanati</title>
+  <link rel="stylesheet" href="gallery.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html" aria-label="Biblioteca Humanati">
+      <span class="brand-mark">H</span>
+      <span><strong>Humanati</strong><small>Biblioteca de artefatos</small></span>
+    </a>
+    <div class="top-actions">
+      <a class="text-link" href="../products/index.html">Produtos</a>
+      <a class="text-link" href="../website/master-package/pages/index.html">Ver site institucional</a>
+      <button class="icon-button" id="themeToggle" type="button" aria-label="Alternar tema">◐</button>
+    </div>
+  </header>
+
+  <div class="shell">
+    <aside class="sidebar" aria-label="Áreas do acervo">
+      <div class="sidebar-heading">
+        <span>Acervo</span>
+        <strong id="sidebarCount">—</strong>
+      </div>
+      <nav id="areaNav" class="area-nav"></nav>
+      <div class="sidebar-note">
+        <strong>Fonte preservada</strong>
+        <p>Os pacotes históricos permanecem disponíveis para auditoria.</p>
+      </div>
+    </aside>
+
+    <main class="main">
+      <section class="hero">
+        <div>
+          <span class="eyebrow">Humanati · Ecossistema digital</span>
+          <h1>Explore tudo o que foi criado.</h1>
+          <p>Identidade, interfaces, páginas, campanhas, apresentações, documentação e infraestrutura em um único catálogo.</p>
+        </div>
+        <div class="hero-metric"><strong id="totalCount">—</strong><span>artefatos catalogados</span></div>
+      </section>
+
+      <section class="toolbar" aria-label="Busca e filtros">
+        <label class="search"><span aria-hidden="true">⌕</span><input id="searchInput" type="search" placeholder="Buscar por nome, caminho ou área…" autocomplete="off"></label>
+        <select id="typeFilter" aria-label="Filtrar por formato"><option value="all">Todos os formatos</option></select>
+        <select id="packageFilter" aria-label="Filtrar por pacote"><option value="all">Todos os pacotes</option></select>
+        <select id="sortFilter" aria-label="Ordenar resultados">
+          <option value="featured">Destaques primeiro</option>
+          <option value="name">Nome A–Z</option>
+          <option value="newest">Maiores primeiro</option>
+        </select>
+        <button id="viewToggle" class="view-toggle" type="button" aria-label="Alternar visualização">▦</button>
+      </section>
+
+      <section class="results-heading">
+        <div><span id="activeAreaLabel">Todos os artefatos</span><small id="resultCount"></small></div>
+        <button id="clearFilters" class="clear-button" type="button">Limpar filtros</button>
+      </section>
+
+      <section id="artifactGrid" class="artifact-grid" aria-live="polite"></section>
+      <div id="emptyState" class="empty-state" hidden><strong>Nenhum artefato encontrado</strong><p>Tente outro termo ou remova os filtros.</p></div>
+    </main>
+  </div>
+
+  <dialog id="previewDialog" class="preview-dialog">
+    <div class="dialog-header">
+      <div><span id="previewArea" class="eyebrow"></span><h2 id="previewTitle"></h2><p id="previewPath"></p></div>
+      <button id="closePreview" class="icon-button" type="button" aria-label="Fechar visualização">×</button>
+    </div>
+    <div id="previewStage" class="preview-stage"></div>
+    <div class="dialog-footer">
+      <span id="previewMeta"></span>
+      <div><a id="openArtifact" class="button button-secondary" target="_blank" rel="noopener">Abrir em nova aba</a><a id="downloadArtifact" class="button button-primary" download>Baixar arquivo</a></div>
+    </div>
+  </dialog>
+
+  <script type="module" src="gallery.js"></script>
+</body>
+</html>

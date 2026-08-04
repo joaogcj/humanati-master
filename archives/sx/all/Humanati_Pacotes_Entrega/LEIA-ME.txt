@@ -1,0 +1,7 @@
+HUMANATI — PACOTES DE ENTREGA
+
+Os ZIPs foram organizados por categoria usando somente os arquivos que realmente existem na sessão.
+Imagens são renders conceituais/artefatos raster quando não houver SVG correspondente.
+O pacote de logos inclui o SVG original da Humanati e o ZIP com as versões exatas do monograma H.
+Não foram incluídos arquivos AI ou Figma nativos porque eles não existem fisicamente no ambiente.
+Consulte INVENTARIO_GERAL.csv para a relação completa.
